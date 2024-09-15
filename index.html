@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
+     <link rel="stylesheet" href="static/style/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+    <script>
+     $(document).ready(function() {
+         $("#Impostazioni").click(function() {
+               window.location.href = "settings.html"
+         });
+
+         $("#startAllenamento").click(function() {
+             window.location.href = "iniziaAllenamento.html"
+         });
+     });
+ </script>
+
+</head>
+<body>
+
+    <div class="uk-height-viewport uk-flex uk-flex-middle uk-flex-center">
+        <div class="containerBtns uk-container uk-text-center">
+            <button id="startAllenamento" class="uk-button menuBtn uk-margin-medium-bottom uk-width-1-1 uk-height-1-1">INIZIA ALLENAMENTO</button>
+            <button id="Impostazioni" class="uk-button menuBtn uk-width-1-1">Impostazioni</button>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

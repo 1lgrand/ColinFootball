@@ -1,0 +1,24 @@
+html{
+     background: linear-gradient(0deg, #386641 0%, #a7c957 100%);
+}
+
+.containerBtns{
+     border-radius: 10px;
+     background-color: #f2e8cf;
+     padding: 30px;
+     min-height: 300px;
+     display: flex;
+     justify-content: center;  /* Centra i bottoni verticalmente */
+     align-items: center;      /* Centra i bottoni orizzontalmente */
+     flex-direction: column;
+     box-shadow: 19px 17px 36px 4px rgba(8, 8, 8, 0.452);
+
+}
+
+.menuBtn{
+     border-radius: 10px;
+     background-color: #007f5f;
+     color: white;
+     min-height: 90px;
+     font-size: 30px;
+}
